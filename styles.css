@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+}
+
+.icons a {
+    margin-left: 20px;
+}
+
+.welcome-header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.welcome-header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.shop-section {
+    padding: 40px 0;
+}
+
+.book-item {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.book-item button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.quick-links,
+.contact-info,
+.payment-methods {
+    width: 30%;
+}
+
+.payment-methods img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #888;
+}
